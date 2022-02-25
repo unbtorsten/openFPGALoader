@@ -2,8 +2,8 @@
 cmake_minimum_required(VERSION 3.0)
 
 # set the project name
-project(openFPGALoader VERSION "0.7.0-unb2022feb24" LANGUAGES CXX)
-add_definitions(-DVERSION=\"v${PROJECT_VERSION}\")
+project(openFPGALoader VERSION "0.7.0" LANGUAGES CXX)
+add_definitions(-DVERSION=\"v${PROJECT_VERSION}-unb2022feb24\")
 
 option(BUILD_STATIC "Whether or not to build with static libraries" OFF)
 if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
